@@ -1,0 +1,39 @@
+body{
+  background-color:	#F0FFFF;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+  float: left;
+}
+li a{
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#logo{
+  color:white;
+  transform: rotate(335deg);
+}
+#homebackdrop{
+  background: url("../images/gym.jpg");
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+#homeblock1{
+  /*background: linear-gradient(green,cyan);*/
+}
+.homeheaders{
+  text-align: center;
+}
+.subheaders{
+  font-weight: bold;
+  text-decoration: underline;
+}

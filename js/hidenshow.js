@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $("#hidemonday").click(function(){
+        $("#mymonday").toggle();
+    });
+    $("#hidetuesday").click(function(){
+        $("#mytuesday").toggle();
+    });
+    $("#hidewednesday").click(function(){
+        $("#mywednesday").toggle();
+    });
+    $("#hidethursday").click(function(){
+        $("#mythursday").toggle();
+    });
+    $("#hidefriday").click(function(){
+        $("#myfriday").toggle();
+    });
+});
